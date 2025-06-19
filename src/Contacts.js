@@ -7,7 +7,7 @@ const Contacts = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8000/hubspot/contacts")
+      .get("https://backendvshift-production.up.railway.app/hubspot/contacts")
       .then((res) => {
         if (res.data.results) {
           setContacts(res.data.results);
