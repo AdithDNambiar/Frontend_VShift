@@ -1,5 +1,5 @@
-import React from 'react';
-import Contacts from './Contacts';
+import React from "react";
+import Contacts from "./Contacts";
 
 function App() {
   return (
